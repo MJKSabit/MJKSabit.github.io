@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Md. Jehadul Karim (Sabit)</title>
+    <link>mjksabit.github.io/tags/java/</link>
+    <description>Recent content in Java on Md. Jehadul Karim (Sabit)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jun 2020 22:53:26 +0600</lastBuildDate>
+    
+	<atom:link href="mjksabit.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AKash</title>
+      <link>mjksabit.github.io/projects/akash/</link>
+      <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
+      
+      <guid>mjksabit.github.io/projects/akash/</guid>
+      <description>AKash is a simple Banking Application using Java &amp;amp; JavaFX
+  Dependencies  JDK 11+ JAVAFX for Java 9+  How to run?  In the release folder, you&amp;rsquo;ll find Jar Files Edit the script files (.bat for windows/.sh for linux) according to your settings Execute the script files (First Server, then Client)  How to use   You can use command line of Server to execute ADMIN works</description>
+    </item>
+    
+    <item>
+      <title>Messenger</title>
+      <link>mjksabit.github.io/projects/messenger/</link>
+      <pubDate>Wed, 15 Apr 2020 22:17:04 +0600</pubDate>
+      
+      <guid>mjksabit.github.io/projects/messenger/</guid>
+      <description>A Simple Multi-Client Messenger with Java Socket Networking&amp;hellip; [ Java Executable Link Given Below ]
+  Just like any other messenger, It has
+ Sign Up and Log in
+Sorting User Depending on Recent Activity
+Unread Message Batch
+Real time message update (with Customizable Frequency 1Hz)
+Black Theme :3
+ Screenshots  </description>
+    </item>
+    
+    <item>
+      <title>Java Environment Setup</title>
+      <link>mjksabit.github.io/posts/java-environment-setup/</link>
+      <pubDate>Sat, 04 Apr 2020 19:22:10 +0600</pubDate>
+      
+      <guid>mjksabit.github.io/posts/java-environment-setup/</guid>
+      <description>JDK and JRE Setup JRE not needed for Version &amp;gt; 10
+Download Java LTS (Java 8, Java 11, …)
+ Oracle JDK 11 Amazon Correto 11 Zulu (includes JavaFX auto in JDK11)  Intellij (&amp;gt;2019.1) comes with bundled JDK which includes JavaFX
+Java Path Variable Setup Windows Go to “Advanced System Settings”:
+Go to “Environment Variable”
+Add New System Variable named “JAVA_HOME” where you have installed your JDK
+Edit Path in System Variable and add the location where “javac.</description>
+    </item>
+    
+  </channel>
+</rss>

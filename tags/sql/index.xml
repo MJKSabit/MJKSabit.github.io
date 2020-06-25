@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Md. Jehadul Karim (Sabit)</title>
+    <link>mjksabit.github.io/tags/sql/</link>
+    <description>Recent content in SQL on Md. Jehadul Karim (Sabit)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jun 2020 22:53:26 +0600</lastBuildDate>
+    
+	<atom:link href="mjksabit.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AKash</title>
+      <link>mjksabit.github.io/projects/akash/</link>
+      <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
+      
+      <guid>mjksabit.github.io/projects/akash/</guid>
+      <description>AKash is a simple Banking Application using Java &amp;amp; JavaFX
+  Dependencies  JDK 11+ JAVAFX for Java 9+  How to run?  In the release folder, you&amp;rsquo;ll find Jar Files Edit the script files (.bat for windows/.sh for linux) according to your settings Execute the script files (First Server, then Client)  How to use   You can use command line of Server to execute ADMIN works</description>
+    </item>
+    
+  </channel>
+</rss>
