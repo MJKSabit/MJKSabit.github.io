@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iGraphics on Md. Jehadul Karim (Sabit)</title>
-    <link>mjksabit.github.io/tags/igraphics/</link>
+    <link>https://zarif98sjs.github.io/tags/igraphics/</link>
     <description>Recent content in iGraphics on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Nov 2019 12:00:09 +0600</lastBuildDate>
     
-	<atom:link href="mjksabit.github.io/tags/igraphics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zarif98sjs.github.io/tags/igraphics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Infinite Runner 2D</title>
-      <link>mjksabit.github.io/projects/infinite-runner-2d/</link>
+      <link>https://zarif98sjs.github.io/projects/infinite-runner-2d/</link>
       <pubDate>Wed, 27 Nov 2019 12:00:09 +0600</pubDate>
       
-      <guid>mjksabit.github.io/projects/infinite-runner-2d/</guid>
+      <guid>https://zarif98sjs.github.io/projects/infinite-runner-2d/</guid>
       <description>Infinite Runner 2D is a 2D game using C Programming Language and iGraphics - An OpenGL Wrapper.
 The game is about a boy keeps running and running, in his way he faces two types of obsacles. He needs to jump to avoid collisin. He can throw a Kunai to destroy one kind of object. But this throwing comes at a cost, 100 point is deducted each time it is thrown.</description>
     </item>

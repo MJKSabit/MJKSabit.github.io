@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaFX on Md. Jehadul Karim (Sabit)</title>
-    <link>mjksabit.github.io/tags/javafx/</link>
+    <link>https://zarif98sjs.github.io/tags/javafx/</link>
     <description>Recent content in JavaFX on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jun 2020 22:53:26 +0600</lastBuildDate>
     
-	<atom:link href="mjksabit.github.io/tags/javafx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zarif98sjs.github.io/tags/javafx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AKash</title>
-      <link>mjksabit.github.io/projects/akash/</link>
+      <link>https://zarif98sjs.github.io/projects/akash/</link>
       <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
       
-      <guid>mjksabit.github.io/projects/akash/</guid>
+      <guid>https://zarif98sjs.github.io/projects/akash/</guid>
       <description>AKash is a simple Banking Application using Java &amp;amp; JavaFX
   Dependencies  JDK 11+ JAVAFX for Java 9+  How to run?  In the release folder, you&amp;rsquo;ll find Jar Files Edit the script files (.bat for windows/.sh for linux) according to your settings Execute the script files (First Server, then Client)  How to use   You can use command line of Server to execute ADMIN works</description>
     </item>
     
     <item>
       <title>Messenger</title>
-      <link>mjksabit.github.io/projects/messenger/</link>
+      <link>https://zarif98sjs.github.io/projects/messenger/</link>
       <pubDate>Wed, 15 Apr 2020 22:17:04 +0600</pubDate>
       
-      <guid>mjksabit.github.io/projects/messenger/</guid>
+      <guid>https://zarif98sjs.github.io/projects/messenger/</guid>
       <description>A Simple Multi-Client Messenger with Java Socket Networking&amp;hellip; [ Java Executable Link Given Below ]
   Just like any other messenger, It has
  Sign Up and Log in
@@ -39,10 +39,10 @@ Black Theme :3
     
     <item>
       <title>JavaFX Environment Setup</title>
-      <link>mjksabit.github.io/posts/javafx-environment-setup/</link>
+      <link>https://zarif98sjs.github.io/posts/javafx-environment-setup/</link>
       <pubDate>Sun, 05 Apr 2020 20:32:14 +0600</pubDate>
       
-      <guid>mjksabit.github.io/posts/javafx-environment-setup/</guid>
+      <guid>https://zarif98sjs.github.io/posts/javafx-environment-setup/</guid>
       <description>JavaFX Download JavaFX for 11, not for IntelliJ Bundled JDK
 Windows and Linux Versions are different, one should not work on another.
 Unzip JavaFX to your HDD

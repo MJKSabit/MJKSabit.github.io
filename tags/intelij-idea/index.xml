@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intelij Idea on Md. Jehadul Karim (Sabit)</title>
-    <link>mjksabit.github.io/tags/intelij-idea/</link>
+    <link>https://zarif98sjs.github.io/tags/intelij-idea/</link>
     <description>Recent content in Intelij Idea on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Apr 2020 20:32:14 +0600</lastBuildDate>
     
-	<atom:link href="mjksabit.github.io/tags/intelij-idea/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zarif98sjs.github.io/tags/intelij-idea/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JavaFX Environment Setup</title>
-      <link>mjksabit.github.io/posts/javafx-environment-setup/</link>
+      <link>https://zarif98sjs.github.io/posts/javafx-environment-setup/</link>
       <pubDate>Sun, 05 Apr 2020 20:32:14 +0600</pubDate>
       
-      <guid>mjksabit.github.io/posts/javafx-environment-setup/</guid>
+      <guid>https://zarif98sjs.github.io/posts/javafx-environment-setup/</guid>
       <description>JavaFX Download JavaFX for 11, not for IntelliJ Bundled JDK
 Windows and Linux Versions are different, one should not work on another.
 Unzip JavaFX to your HDD
@@ -28,10 +28,10 @@ Path Variables, and define the name of the variable as PATH_TO_FX, and browse to
     
     <item>
       <title>Java Environment Setup</title>
-      <link>mjksabit.github.io/posts/java-environment-setup/</link>
+      <link>https://zarif98sjs.github.io/posts/java-environment-setup/</link>
       <pubDate>Sat, 04 Apr 2020 19:22:10 +0600</pubDate>
       
-      <guid>mjksabit.github.io/posts/java-environment-setup/</guid>
+      <guid>https://zarif98sjs.github.io/posts/java-environment-setup/</guid>
       <description>JDK and JRE Setup JRE not needed for Version &amp;gt; 10
 Download Java LTS (Java 8, Java 11, …)
  Oracle JDK 11 Amazon Correto 11 Zulu (includes JavaFX auto in JDK11)  Intellij (&amp;gt;2019.1) comes with bundled JDK which includes JavaFX

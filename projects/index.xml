@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Md. Jehadul Karim (Sabit)</title>
-    <link>mjksabit.github.io/projects/</link>
+    <link>https://zarif98sjs.github.io/projects/</link>
     <description>Recent content in Projects on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jun 2020 22:53:26 +0600</lastBuildDate>
     
-	<atom:link href="mjksabit.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zarif98sjs.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AKash</title>
-      <link>mjksabit.github.io/projects/akash/</link>
+      <link>https://zarif98sjs.github.io/projects/akash/</link>
       <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
       
-      <guid>mjksabit.github.io/projects/akash/</guid>
+      <guid>https://zarif98sjs.github.io/projects/akash/</guid>
       <description>AKash is a simple Banking Application using Java &amp;amp; JavaFX
   Dependencies  JDK 11+ JAVAFX for Java 9+  How to run?  In the release folder, you&amp;rsquo;ll find Jar Files Edit the script files (.bat for windows/.sh for linux) according to your settings Execute the script files (First Server, then Client)  How to use   You can use command line of Server to execute ADMIN works</description>
     </item>
     
     <item>
       <title>Messenger</title>
-      <link>mjksabit.github.io/projects/messenger/</link>
+      <link>https://zarif98sjs.github.io/projects/messenger/</link>
       <pubDate>Wed, 15 Apr 2020 22:17:04 +0600</pubDate>
       
-      <guid>mjksabit.github.io/projects/messenger/</guid>
+      <guid>https://zarif98sjs.github.io/projects/messenger/</guid>
       <description>A Simple Multi-Client Messenger with Java Socket Networking&amp;hellip; [ Java Executable Link Given Below ]
   Just like any other messenger, It has
  Sign Up and Log in
@@ -39,10 +39,10 @@ Black Theme :3
     
     <item>
       <title>Infinite Runner 2D</title>
-      <link>mjksabit.github.io/projects/infinite-runner-2d/</link>
+      <link>https://zarif98sjs.github.io/projects/infinite-runner-2d/</link>
       <pubDate>Wed, 27 Nov 2019 12:00:09 +0600</pubDate>
       
-      <guid>mjksabit.github.io/projects/infinite-runner-2d/</guid>
+      <guid>https://zarif98sjs.github.io/projects/infinite-runner-2d/</guid>
       <description>Infinite Runner 2D is a 2D game using C Programming Language and iGraphics - An OpenGL Wrapper.
 The game is about a boy keeps running and running, in his way he faces two types of obsacles. He needs to jump to avoid collisin. He can throw a Kunai to destroy one kind of object. But this throwing comes at a cost, 100 point is deducted each time it is thrown.</description>
     </item>
