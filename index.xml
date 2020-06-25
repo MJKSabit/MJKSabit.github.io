@@ -60,6 +60,21 @@ In my spare time, I like to play Video Games, watching Movies and TV Series.</de
     </item>
     
     <item>
+      <title>Resume</title>
+      <link>https://MJKSabit.github.io/resume/</link>
+      <pubDate>Wed, 24 Jun 2020 23:37:37 +0600</pubDate>
+      
+      <guid>https://MJKSabit.github.io/resume/</guid>
+      <description>Md. Jehadul Karim (Sabit) Passionate | Pessimistic | Learner
+Studying CSE @ BUET
+Skills Languages: C | Java | SQL
+Tools: Git
+Platform: Linux | Android | Windows
+Specific Skills:
+ C: OpenGL/IGraphics Java: JavaFX SQL: SQLite Git: GitHub  Contact GMail | Facebok | GitHub | LinkedIn</description>
+    </item>
+    
+    <item>
       <title>JavaFX Environment Setup</title>
       <link>https://MJKSabit.github.io/posts/javafx-environment-setup/</link>
       <pubDate>Sun, 05 Apr 2020 20:32:14 +0600</pubDate>
