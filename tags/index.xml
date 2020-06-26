@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 22:53:26 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 22:53:26 +0600</lastBuildDate>
     
 	<atom:link href="https://MJKSabit.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Java</title>
       <link>https://MJKSabit.github.io/tags/java/</link>
-      <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
+      <pubDate>Fri, 05 Jun 2020 22:53:26 +0600</pubDate>
       
       <guid>https://MJKSabit.github.io/tags/java/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>JavaFX</title>
       <link>https://MJKSabit.github.io/tags/javafx/</link>
-      <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
+      <pubDate>Fri, 05 Jun 2020 22:53:26 +0600</pubDate>
       
       <guid>https://MJKSabit.github.io/tags/javafx/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>SQL</title>
       <link>https://MJKSabit.github.io/tags/sql/</link>
-      <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
+      <pubDate>Fri, 05 Jun 2020 22:53:26 +0600</pubDate>
       
       <guid>https://MJKSabit.github.io/tags/sql/</guid>
       <description></description>
@@ -41,9 +41,18 @@
     <item>
       <title>SQLite</title>
       <link>https://MJKSabit.github.io/tags/sqlite/</link>
-      <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
+      <pubDate>Fri, 05 Jun 2020 22:53:26 +0600</pubDate>
       
       <guid>https://MJKSabit.github.io/tags/sqlite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://MJKSabit.github.io/tags/android/</link>
+      <pubDate>Wed, 08 Apr 2020 22:17:04 +0600</pubDate>
+      
+      <guid>https://MJKSabit.github.io/tags/android/</guid>
       <description></description>
     </item>
     

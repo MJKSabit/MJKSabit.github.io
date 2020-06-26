@@ -6,7 +6,7 @@
     <description>Recent content in Java on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 22:53:26 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 22:53:26 +0600</lastBuildDate>
     
 	<atom:link href="https://MJKSabit.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,24 @@
     <item>
       <title>AKash</title>
       <link>https://MJKSabit.github.io/projects/akash/</link>
-      <pubDate>Thu, 25 Jun 2020 22:53:26 +0600</pubDate>
+      <pubDate>Fri, 05 Jun 2020 22:53:26 +0600</pubDate>
       
       <guid>https://MJKSabit.github.io/projects/akash/</guid>
       <description>AKash is a simple Banking Application using Java &amp;amp; JavaFX
   Dependencies  JDK 11+ JAVAFX for Java 9+  How to run?  In the release folder, you&amp;rsquo;ll find Jar Files Edit the script files (.bat for windows/.sh for linux) according to your settings Execute the script files (First Server, then Client)  How to use   You can use command line of Server to execute ADMIN works</description>
+    </item>
+    
+    <item>
+      <title>Corona Update</title>
+      <link>https://MJKSabit.github.io/projects/corona-update/</link>
+      <pubDate>Wed, 08 Apr 2020 22:17:04 +0600</pubDate>
+      
+      <guid>https://MJKSabit.github.io/projects/corona-update/</guid>
+      <description>An Android App which shows current situation of corona all over the world.
+  It shows,
+ Total Number of Infected People Total Number of Recovered People Total number of Active cases Total number of Death  To use the app, you have to be conncted to the Internet.
+The app gets data from the Internet.
+To avoid unneccesary complexity, I didn&amp;rsquo;t add an other facilities like auto refresh. You can refresh manually by closing and opening the app again.</description>
     </item>
     
     <item>
