@@ -6,10 +6,20 @@
     <description>Recent content in Java on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2020 22:53:26 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 17:55:52 +0600</lastBuildDate>
     
 	<atom:link href="https://MJKSabit.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Share A BIT</title>
+      <link>https://MJKSabit.github.io/projects/share-a-bit/</link>
+      <pubDate>Fri, 17 Jul 2020 17:55:52 +0600</pubDate>
+      
+      <guid>https://MJKSabit.github.io/projects/share-a-bit/</guid>
+      <description>What is Share A BIT Share A BIT is a cross platform file sharing app. It is written in Java with JavaFX. So, if an operating system can run Java (which all major Operating System does), you can use Share A BIT in it.
+Moreover, Share A BIT has an Android Client, which makes it way easier to share file to your phone from you pc and vice-verca wirelessly. The Android app can also be used to share files betweeen two android phones.</description>
+    </item>
     
     <item>
       <title>AKash</title>

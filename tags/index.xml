@@ -6,15 +6,24 @@
     <description>Recent content in Tags on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2020 22:53:26 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 17:55:52 +0600</lastBuildDate>
     
 	<atom:link href="https://MJKSabit.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Android</title>
+      <link>https://MJKSabit.github.io/tags/android/</link>
+      <pubDate>Fri, 17 Jul 2020 17:55:52 +0600</pubDate>
+      
+      <guid>https://MJKSabit.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Java</title>
       <link>https://MJKSabit.github.io/tags/java/</link>
-      <pubDate>Fri, 05 Jun 2020 22:53:26 +0600</pubDate>
+      <pubDate>Fri, 17 Jul 2020 17:55:52 +0600</pubDate>
       
       <guid>https://MJKSabit.github.io/tags/java/</guid>
       <description></description>
@@ -23,9 +32,27 @@
     <item>
       <title>JavaFX</title>
       <link>https://MJKSabit.github.io/tags/javafx/</link>
-      <pubDate>Fri, 05 Jun 2020 22:53:26 +0600</pubDate>
+      <pubDate>Fri, 17 Jul 2020 17:55:52 +0600</pubDate>
       
       <guid>https://MJKSabit.github.io/tags/javafx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://MJKSabit.github.io/tags/linux/</link>
+      <pubDate>Fri, 17 Jul 2020 17:55:52 +0600</pubDate>
+      
+      <guid>https://MJKSabit.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://MJKSabit.github.io/tags/windows/</link>
+      <pubDate>Fri, 17 Jul 2020 17:55:52 +0600</pubDate>
+      
+      <guid>https://MJKSabit.github.io/tags/windows/</guid>
       <description></description>
     </item>
     
@@ -48,38 +75,11 @@
     </item>
     
     <item>
-      <title>Android</title>
-      <link>https://MJKSabit.github.io/tags/android/</link>
-      <pubDate>Wed, 08 Apr 2020 22:17:04 +0600</pubDate>
-      
-      <guid>https://MJKSabit.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Intelij Idea</title>
       <link>https://MJKSabit.github.io/tags/intelij-idea/</link>
       <pubDate>Sun, 05 Apr 2020 20:32:14 +0600</pubDate>
       
       <guid>https://MJKSabit.github.io/tags/intelij-idea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://MJKSabit.github.io/tags/linux/</link>
-      <pubDate>Sat, 04 Apr 2020 19:22:10 +0600</pubDate>
-      
-      <guid>https://MJKSabit.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>https://MJKSabit.github.io/tags/windows/</link>
-      <pubDate>Sat, 04 Apr 2020 19:22:10 +0600</pubDate>
-      
-      <guid>https://MJKSabit.github.io/tags/windows/</guid>
       <description></description>
     </item>
     

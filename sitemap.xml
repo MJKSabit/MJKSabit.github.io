@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://MJKSabit.github.io/projects/share-a-bit/</loc>
+    <lastmod>2020-07-17T17:55:52+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://MJKSabit.github.io/projects/akash/</loc>
     <lastmod>2020-06-05T22:53:26+06:00</lastmod>
   </url>
@@ -23,6 +28,41 @@
   </url>
   
   <url>
+    <loc>https://MJKSabit.github.io/tags/android/</loc>
+    <lastmod>2020-07-17T17:55:52+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://MJKSabit.github.io/tags/java/</loc>
+    <lastmod>2020-07-17T17:55:52+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://MJKSabit.github.io/tags/javafx/</loc>
+    <lastmod>2020-07-17T17:55:52+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://MJKSabit.github.io/tags/linux/</loc>
+    <lastmod>2020-07-17T17:55:52+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://MJKSabit.github.io/projects/</loc>
+    <lastmod>2020-07-17T17:55:52+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://MJKSabit.github.io/tags/</loc>
+    <lastmod>2020-07-17T17:55:52+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://MJKSabit.github.io/tags/windows/</loc>
+    <lastmod>2020-07-17T17:55:52+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://MJKSabit.github.io/about/</loc>
     <lastmod>2020-06-25T20:48:39+06:00</lastmod>
   </url>
@@ -38,21 +78,6 @@
   </url>
   
   <url>
-    <loc>https://MJKSabit.github.io/tags/java/</loc>
-    <lastmod>2020-06-05T22:53:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://MJKSabit.github.io/tags/javafx/</loc>
-    <lastmod>2020-06-05T22:53:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://MJKSabit.github.io/projects/</loc>
-    <lastmod>2020-06-05T22:53:26+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://MJKSabit.github.io/tags/sql/</loc>
     <lastmod>2020-06-05T22:53:26+06:00</lastmod>
   </url>
@@ -60,16 +85,6 @@
   <url>
     <loc>https://MJKSabit.github.io/tags/sqlite/</loc>
     <lastmod>2020-06-05T22:53:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://MJKSabit.github.io/tags/</loc>
-    <lastmod>2020-06-05T22:53:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://MJKSabit.github.io/tags/android/</loc>
-    <lastmod>2020-04-08T22:17:04+06:00</lastmod>
   </url>
   
   <url>
@@ -89,16 +104,6 @@
   
   <url>
     <loc>https://MJKSabit.github.io/posts/java-environment-setup/</loc>
-    <lastmod>2020-04-04T19:22:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://MJKSabit.github.io/tags/linux/</loc>
-    <lastmod>2020-04-04T19:22:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://MJKSabit.github.io/tags/windows/</loc>
     <lastmod>2020-04-04T19:22:10+06:00</lastmod>
   </url>
   
