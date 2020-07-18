@@ -37,7 +37,7 @@ Moreover, Share A BIT has an Android Client, which makes it way easier to share 
 <meta itemprop="description" content="Share A BIT is a cross Platform file sharing app. It supports Android and Any OS that supports Java. It is can send files to devices connected to same Wi-Fi Network or even Hotspot">
 <meta itemprop="datePublished" content="2020-07-17T17:55:52&#43;06:00" />
 <meta itemprop="dateModified" content="2020-07-17T17:55:52&#43;06:00" />
-<meta itemprop="wordCount" content="829">
+<meta itemprop="wordCount" content="922">
 <meta itemprop="image" content="https://MJKSabit.github.io"/>
 
 
@@ -198,8 +198,16 @@ After downloading and extracting, edit the <strong>run.bat</strong> file:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#e6db74">&#34;&lt;java.exe Directory&gt;&#34;</span> --module-path <span style="color:#e6db74">&#34;&lt;JavaFX Lib Directory&gt;&#34;</span> --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web --add-opens javafx.base/com.sun.javafx.runtime=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.scene.control.behavior=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.binding=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.event=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED -jar &lt;jar-file-name&gt;
 </code></pre></div><p>For example, I have Java 11 installed, <code>java.exe</code> is located in <code>C:\jre-11\bin\java.exe</code>, JavaFX lib directory in <code>C:\java-fx-11-windows\lib</code> and my downloaded Jar File&rsquo;s name is <code>Share-A-BIT-v0.1.0.jar</code> then, <strong>run.bat</strong> file would be:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#e6db74">&#34;C:\\jre-11\\bin\\java.exe&#34;</span> --module-path <span style="color:#e6db74">&#34;C:\\java-fx-11-windows\\lib&#34;</span> --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web --add-opens javafx.base/com.sun.javafx.runtime=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.scene.control.behavior=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.binding=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.event=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED -jar <span style="color:#e6db74">&#34;Share-A-BIT-v0.1.0.jar&#34;</span>
-</code></pre></div><h1 id="download-links">Download Links</h1>
-<h3 id="latest-release--v010-alpha-build-2">Latest Release : v0.1.0-alpha-build-2</h3>
+</code></pre></div><h1 id="windows-can-not-find-other-device-or-can-not-be-found-in-same-network">Windows can not find other device or can not be found in same network</h1>
+<blockquote>
+<p>This problem occurs when java is not allowed through Firewall. __ <a href="https://docs.google.com/document/d/1agpcZEOb1RHytZTiur0djC7Mz0TFrsmY726Vy6Onc6Y/edit?usp=sharing">The solution is here</a> __</p>
+</blockquote>
+<h1 id="android-can-not-be-used-in-sender-mode">Android can not be used in sender Mode</h1>
+<blockquote>
+<p>Make sure, both your devices are connected to the same network. Note that, if you use <strong>Hotspot</strong> for your connection, that device must be in <strong>Receiver Mode</strong>. If nothing helps, you can use <em>Receiver Mode</em> which device will send files and reverse to the other. After connection is made, anyone can send and receive files.</p>
+</blockquote>
+<h1 id="download-links">Download Links</h1>
+<h3 id="latest-release--v090-beta">Latest Release : v0.9.0-beta</h3>
 <ul>
 <li><strong>Android</strong>: [<a href="https://drive.google.com/drive/folders/1Z68hEdB-jS-NW2ET6YIPJvVPDBYkN1e1">Google Drive</a>] [<a href="https://mega.nz/folder/JTwyQY4T#O3h67PsDsGWcAT2eXH5uww">Mega</a>]</li>
 <li><strong>PC</strong>: [<a href="https://drive.google.com/drive/folders/1ZBpNxre8JDGJ3sEKNjb1UvW9eJ78PszK">Google Drive</a>] [<a href="https://mega.nz/folder/QShQECiR#MAfiIL0Ma4pGKANZH-cCLw">Mega</a>]</li>
@@ -213,6 +221,10 @@ After downloading and extracting, edit the <strong>run.bat</strong> file:</p>
 <li>Sometimes in Sender Mode from PC, it can&rsquo;t find Phone or Other Devices. In that case, try Other Device as Sender and the PC as Receiver, When connection is established, send file from that PC. I&rsquo;m working to solve this issue. If doing all that steps, still file can not be transferred, try restarting your PC.</li>
 </ul>
 <h2 id="screenshots">Screenshots:</h2>
+
+    <img src="/img/share-a-bit/share-speed.jpg"  alt="Speed"  class="center"  style="width: 100%; display: flex;"  />
+
+
 <ul>
 <li>
 <p>Android
