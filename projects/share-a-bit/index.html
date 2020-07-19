@@ -37,7 +37,7 @@ Moreover, Share A BIT has an Android Client, which makes it way easier to share 
 <meta itemprop="description" content="Share A BIT is a cross Platform file sharing app. It supports Android and Any OS that supports Java. It is can send files to devices connected to same Wi-Fi Network or even Hotspot">
 <meta itemprop="datePublished" content="2020-07-17T17:55:52&#43;06:00" />
 <meta itemprop="dateModified" content="2020-07-17T17:55:52&#43;06:00" />
-<meta itemprop="wordCount" content="922">
+<meta itemprop="wordCount" content="964">
 <meta itemprop="image" content="https://MJKSabit.github.io"/>
 
 
@@ -171,7 +171,7 @@ You can use your mobile hotspot in that case. But it&rsquo;s a little bit tricky
 </ul>
 <h2 id="pc">PC</h2>
 <ul>
-<li>To use Share A BIT in Computer, download the latest <em>.jar</em> file (with run.bat) from below.</li>
+<li>To use Share A BIT in Computer, download the latest <em>.jar</em> <strong>for your PC java version</strong> file (with run.bat) from below.</li>
 <li>You must have Java 8 or above in your computer. It is <strong>recommended</strong> that you use Java 8 as the program is compiled with JDK 8 and it includes JavaFX with it (except Open-JDK).</li>
 <li>Whatever Java you use, you must <strong>ALLOW Java through Firewall</strong>, to do that, Search for &ldquo;Firewall&rdquo; in start menu, Go to <code>Firewall and Network Protection</code> &gt; <code>Allow an App through Firewall</code> &gt; <code>[Change Settings]</code> &gt; <code>Allow Another App</code> &gt; Browse <code>java.exe</code> ; Network Types <code>[V] Private</code> &gt; <code>[Add]</code></li>
 </ul>
@@ -185,29 +185,57 @@ You can use your mobile hotspot in that case. But it&rsquo;s a little bit tricky
 <p>If the app doesn&rsquo;t run, double click run.bat</p>
 </li>
 <li>
-<p>If none of these above steps doesn&rsquo;t work, edit the run.bat file and then open:</p>
+<p>If none of these above steps doesn&rsquo;t work, edit the java-8.bat file and then open:</p>
 </li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#e6db74">&#34;&lt;java.exe file location&gt;&#34;</span> -jar &lt;jar-file-name&gt;
-</code></pre></div><p>For example, I have Java 8 installed in <code>C:\jre-1.8</code>, <code>java.exe</code> is located in <code>C:\jre-1.8\bin\java.exe</code> and my downloaded Jar File&rsquo;s name is <code>Share-A-BIT-v0.1.0.jar</code> then, <strong>run.bat</strong> file would be:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#e6db74">&#34;C:\\jre-1.8\\bin\\java.exe&#34;</span> -jar <span style="color:#e6db74">&#34;Share-A-BIT-v0.1.0.jar&#34;</span>
+<blockquote>
+<p>Fifth Line:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#66d9ef">set</span> JAVA_PATH=<span style="color:#e6db74">&#34;&lt;java.exe path location&gt;&#34;</span>
+</code></pre></div><p>For example, I have Java 8 installed in <code>C:\jre-1.8</code>, <code>java.exe</code> is located in <code>C:\jre-1.8\bin\java.exe</code> and my downloaded Jar File&rsquo;s name is <code>Share-A-BIT-0.9.0-beta-PC-java-8.jar</code> then, <strong>run.bat</strong> file would be:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat">:<span style="color:#75715e">: Edit this batch file to run in your PC, For JAVA 8</span>
+@<span style="color:#66d9ef">echo</span> off
+
+:<span style="color:#75715e">: Set JAVA_PATH to your java.exe (Java 8)</span>
+<span style="color:#66d9ef">set</span> JAVA_PATH=<span style="color:#e6db74">&#34;C:\jre-1.8\bin\java.exe&#34;</span>
+
+%JAVA_PATH% -jar <span style="color:#e6db74">&#34;Share-A-BIT-0.9.0-beta-PC-java-8.jar&#34;</span>
 </code></pre></div><h3 id="for-java-9">For Java 9+</h3>
 <p>I have only tested Java 11, not sure for others :(
-As Java &gt; 8, doesn&rsquo;t comes with bundled JavaFX, you have to download JavaFX for you Java Versio and OS from here: <a href="https://gluonhq.com/products/javafx/">JavaFX</a><br>
-After downloading and extracting, edit the <strong>run.bat</strong> file:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#e6db74">&#34;&lt;java.exe Directory&gt;&#34;</span> --module-path <span style="color:#e6db74">&#34;&lt;JavaFX Lib Directory&gt;&#34;</span> --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web --add-opens javafx.base/com.sun.javafx.runtime=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.scene.control.behavior=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.binding=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.event=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED -jar &lt;jar-file-name&gt;
-</code></pre></div><p>For example, I have Java 11 installed, <code>java.exe</code> is located in <code>C:\jre-11\bin\java.exe</code>, JavaFX lib directory in <code>C:\java-fx-11-windows\lib</code> and my downloaded Jar File&rsquo;s name is <code>Share-A-BIT-v0.1.0.jar</code> then, <strong>run.bat</strong> file would be:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#e6db74">&#34;C:\\jre-11\\bin\\java.exe&#34;</span> --module-path <span style="color:#e6db74">&#34;C:\\java-fx-11-windows\\lib&#34;</span> --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web --add-opens javafx.base/com.sun.javafx.runtime=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.scene.control.behavior=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.binding=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.event=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED -jar <span style="color:#e6db74">&#34;Share-A-BIT-v0.1.0.jar&#34;</span>
-</code></pre></div><h1 id="windows-can-not-find-other-device-or-can-not-be-found-in-same-network">Windows can not find other device or can not be found in same network</h1>
+As Java &gt; 8, doesn&rsquo;t comes with bundled JavaFX, you have to download JavaFX for you Java Version and OS from here: <a href="https://gluonhq.com/products/javafx/">JavaFX</a><br>
+After downloading and extracting, edit the <strong>java-8.bat</strong> file:</p>
 <blockquote>
-<p>This problem occurs when java is not allowed through Firewall. __ <a href="https://docs.google.com/document/d/1agpcZEOb1RHytZTiur0djC7Mz0TFrsmY726Vy6Onc6Y/edit?usp=sharing">The solution is here</a> __</p>
+<p>Fourth Line</p>
 </blockquote>
-<h1 id="android-can-not-be-used-in-sender-mode">Android can not be used in sender Mode</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#66d9ef">set</span> JAVA_PATH=<span style="color:#e6db74">&#34;C:\java 11\bin\java.exe&#34;</span>
+</code></pre></div><blockquote>
+<p>Ninth Line</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat"><span style="color:#66d9ef">set</span> JFX_PATH=<span style="color:#e6db74">&#34;C:\javafx\lib&#34;</span>
+</code></pre></div><p>For example, I have Java 11 installed, <code>java.exe</code> is located in <code>C:\jre 11\bin\java.exe</code>, JavaFX lib directory in <code>C:\java-fx-11-windows\lib</code> and my downloaded Jar File&rsquo;s name is <code>Share-A-BIT-0.9.0-beta-PC-java-11.jar</code> then, <strong>java-11.bat</strong> file would be:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bat" data-lang="bat">@<span style="color:#66d9ef">echo</span> off
+
+:<span style="color:#75715e">: Set java.exe file Location, just use &#39;java&#39; if already set as PATH variable</span>
+<span style="color:#66d9ef">set</span> JAVA_PATH=<span style="color:#e6db74">&#34;C:\jre 11\bin\java.exe&#34;</span>
+
+@<span style="color:#66d9ef">echo</span> off
+
+:<span style="color:#75715e">: Set JavaFX &#34;lib&#34; folder Path in your Computer</span>
+<span style="color:#66d9ef">set</span> JFX_PATH=<span style="color:#e6db74">&#34;C:\Users\Asus\Documents\javafx-sdk-11.0.2\lib&#34;</span>
+
+@<span style="color:#66d9ef">echo</span> off
+%JAVA_PATH% --module-path %JFX_PATH% --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web -jar <span style="color:#e6db74">&#34;Share-A-BIT-0.9.0-beta-PC-java-11.jar&#34;</span>
+
+</code></pre></div><h2 id="windows-can-not-find-other-device-or-can-not-be-found-in-same-network">Windows can not find other device or can not be found in same network</h2>
+<blockquote>
+<p>This problem occurs when java is not allowed through Firewall. <strong><a href="https://docs.google.com/document/d/1agpcZEOb1RHytZTiur0djC7Mz0TFrsmY726Vy6Onc6Y/edit?usp=sharing">The solution is here</a></strong></p>
+</blockquote>
+<h2 id="android-can-not-be-used-in-sender-mode">Android can not be used in sender Mode</h2>
 <blockquote>
 <p>Make sure, both your devices are connected to the same network. Note that, if you use <strong>Hotspot</strong> for your connection, that device must be in <strong>Receiver Mode</strong>. If nothing helps, you can use <em>Receiver Mode</em> which device will send files and reverse to the other. After connection is made, anyone can send and receive files.</p>
 </blockquote>
 <h1 id="download-links">Download Links</h1>
-<h3 id="latest-release--v090-beta">Latest Release : v0.9.0-beta</h3>
+<h3 id="latest-release--v090-beta-19-07-2020">Latest Release : v0.9.0-beta (19-07-2020)</h3>
 <ul>
 <li><strong>Android</strong>: [<a href="https://drive.google.com/drive/folders/1Z68hEdB-jS-NW2ET6YIPJvVPDBYkN1e1">Google Drive</a>] [<a href="https://mega.nz/folder/JTwyQY4T#O3h67PsDsGWcAT2eXH5uww">Mega</a>]</li>
 <li><strong>PC</strong>: [<a href="https://drive.google.com/drive/folders/1ZBpNxre8JDGJ3sEKNjb1UvW9eJ78PszK">Google Drive</a>] [<a href="https://mega.nz/folder/QShQECiR#MAfiIL0Ma4pGKANZH-cCLw">Mega</a>]</li>
