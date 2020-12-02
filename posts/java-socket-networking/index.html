@@ -354,7 +354,7 @@ Basics of Networking First of all you need to understand how networking is done.
 <code>String input = reader.readLine();</code></p>
 <h3 id="bufferedwriter">BufferedWriter</h3>
 <p>This one is used with <code>OutputStream</code>, to get an instance of this, use:
-<code>BufferedWriter writer = new BufferedWriter(new InputStreamWriter(out));</code></p>
+<code>BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out));</code></p>
 <p><code>BufferedReader</code> has a method <code>write(String)</code> to directly send a <code>String</code> from the stream. Be careful to include a <code>\n</code> in the end of the String or call <code>newLine()</code> method, else <code>readLine()</code> from the otherside will not be able to read the steam,</p>
 <p><code>writer.write(&quot;Hello World!&quot;);</code>
 <code>write.newLine()</code></p>
@@ -460,7 +460,7 @@ Basics of Networking First of all you need to understand how networking is done.
             		InputStream in <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span><span style="color:#a6e22e">getInputSteam</span><span style="color:#f92672">();</span>
             
             		<span style="color:#75715e">// Simple String Value Sending...
-</span><span style="color:#75715e"></span>        	    	BufferedWriter writer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> BufferedWriter<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> InputStreamWriter<span style="color:#f92672">(</span>out<span style="color:#f92672">));</span>
+</span><span style="color:#75715e"></span>        	    	BufferedWriter writer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> BufferedWriter<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> OutputStreamWriter<span style="color:#f92672">(</span>out<span style="color:#f92672">));</span>
     	        	writer<span style="color:#f92672">.</span><span style="color:#a6e22e">write</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World from Server to Client #&#34;</span><span style="color:#f92672">+</span>i<span style="color:#f92672">);</span>
 	            	writer<span style="color:#f92672">.</span><span style="color:#a6e22e">newLine</span><span style="color:#f92672">();</span>
             
