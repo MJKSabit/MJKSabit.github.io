@@ -6,7 +6,7 @@
     <description>Recent content in Java on Md. Jehadul Karim (Sabit)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2020 17:55:52 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 02 Dec 2020 22:17:02 +0600</lastBuildDate>
     
 	<atom:link href="https://MJKSabit.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
@@ -58,6 +58,20 @@ Unread Message Batch
 Real time message update (with Customizable Frequency 1Hz)
 Black Theme :3
  Screenshots  </description>
+    </item>
+    
+    <item>
+      <title>Java Socket Networking</title>
+      <link>https://MJKSabit.github.io/posts/java-socket-networking/</link>
+      <pubDate>Wed, 02 Dec 2020 22:17:02 +0600</pubDate>
+      
+      <guid>https://MJKSabit.github.io/posts/java-socket-networking/</guid>
+      <description>Networking  By Md. Jehadul Karim
+ Prerequisite:
+ Threading  Recommended:
+ Input &amp;amp; Output Stream  So, how do you do Networking. Lets dive into the basics of networking.
+Basics of Networking First of all you need to understand how networking is done. There are two types of connection (as far as I know):
+ TCP UDP  In this tutorial, I am only going to talk about TCP Networking.</description>
     </item>
     
     <item>
